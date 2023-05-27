@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 58px;
+}
+
+.sidebar li {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+ 
+}
+.main{
+    background-color: white;
+    width: 85vw;
+}
+.container{
+    display:flex;
+}
+
+.infoContainer{
+    background-color: white;
+    height: 30vw;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{font-size: 30px;}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;   
+    font-family: 'Roboto Slab', serif; 
+}
+
+.About{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 4px 12px;
+    border-radius: 151px;
+    color: white;
+    background-color: rgb(13, 166, 226);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    color: rgb(13, 166, 226);
+    background-color: white;
+}
+
+.btn-sm{
+    font-size: 12px;
+    padding: 10px 15px;
+    margin: 10px 0; 
+
+}
+.devpic img {
+    height: 50vh;
+    padding: 37px 41px;
+    border-radius: 70%;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 70px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+.contactform h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding: 12px 0;
+
+}
+
+.contactform form div{
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+
+
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blogContainer h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.blogitem p{
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    margin: 12px;
+}
+.blogitem .btn-sm
+{
+    margin-left: 10px;
+}
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+
+.intro p{
+    font-family: 'Roboto Slab', serif;
+    margin: 12px;
+
+}
+
+.sidebarGo{
+    transform: translate(-240px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 171px;
+}
+
+.intro p
+{
+    text-align: justify;
+}
+
+.intro h3
+{
+    padding-left: 12px;
+}
+
